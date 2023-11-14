@@ -194,7 +194,7 @@ Remove-Item -Recurse -Force your_repository
 
 Remember to replace `your-branch-name` with the desired branch name and adjust the commit message as necessary.
 
-## Git & GitHub in PowerShell
+## Creating Git locally from scratch
 
 1. **Initialize Git in a Directory**:
     ```powershell
