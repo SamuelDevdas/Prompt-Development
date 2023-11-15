@@ -133,18 +133,27 @@ Remove-Item -Recurse -Force your_repository
     git init
     ```
 
+<<<<<<< HEAD
 2. **Create a New Branch**:
+=======
+1. **Create a New Branch**:
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
     ```bash
     # Creates a new branch and switches to it
     git checkout -b your-branch-name
     ```
 
+<<<<<<< HEAD
 3. **Check Current Branch**:
+=======
+2. **Check Current Branch**:
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
     ```bash
     # Displays the list of branches and highlights the active branch
     git branch
     ```
 
+<<<<<<< HEAD
 4. **Checkout to previous Branch**:
     ```bash
     # Displays the list of branches and highlights the active branch
@@ -152,10 +161,14 @@ Remove-Item -Recurse -Force your_repository
     ```
 
 5. **Stage Your Changes**:
+=======
+3. **Stage Your Changes**:
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
     ```bash
     # Adds all changes in the current directory to the staging area
     git add .
     ```
+<<<<<<< HEAD
 6. **UNStage Your Changes**:
     ```bash
     # Unstage all changes in the current directory to the staging area
@@ -165,18 +178,30 @@ Remove-Item -Recurse -Force your_repository
     git reset HEAD <file>
     ```
 7. **Commit Your Changes**:
+=======
+
+4. **Commit Your Changes**:
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
     ```bash
     # Commits the staged changes with a message
     git commit -m "Your meaningful commit message here"
     ```
 
+<<<<<<< HEAD
 8. **Push the Branch to the Remote Repository**:
+=======
+5. **Push the Branch to the Remote Repository**:
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
     ```bash
     # Pushes the branch to the remote repository and tracks it
     git push -u origin your-branch-name
     ```
 
+<<<<<<< HEAD
 9. **Edit message or add a new file in the same commit**
+=======
+6. **Edit message or add a new file in the same commit**
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
    
     ```bash
     git commit --amend -m "CA-490 fetch_signals updated date,version,author"
@@ -186,7 +211,11 @@ Remove-Item -Recurse -Force your_repository
     git commit --amend --no-edit
     ```
 
+<<<<<<< HEAD
 10. **Create a Pull Request**:
+=======
+1. **Create a Pull Request**:
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
     After pushing the branch, a URL will be displayed in the terminal to create a pull request via Bitbucket's web interface.
 
     ```bash
@@ -196,7 +225,11 @@ Remove-Item -Recurse -Force your_repository
 
     Copy and paste this URL into a web browser to initiate the pull request creation.
 
+<<<<<<< HEAD
 11. **Clean Up (After Pull Request is Merged)**:
+=======
+2. **Clean Up (After Pull Request is Merged)**:
+>>>>>>> 2a11cb2bd9901874bbe8b5a0a59c84f79f4b439d
     ```bash
     # Deletes the local branch
     git branch -d your-branch-name
